@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Haven</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body >
+
+<header>
+    <div class="promotions">
+        <p>Welcome to Book Haven! Enjoy our latest promotions.</p>
+    </div>
+</header>
+
+<div class="header-content">
+    <div class="logo">
+        <img src="src/images/logo.png" alt="Book Haven Logo">
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for books...">
+    </div>
+    <div class="user-options">
+        <a href="http://localhost/project/login.php#"><i class="fas fa-user"></i> Login/Sign Up</a>
+        <a href="#"><i class="fas fa-heart"></i> Wishlist</a>
+        <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+    </div>
+</div>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">E-Book</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Help</a></li>
+        <li class="admin-option"><a href="http://localhost/project/new.php">Admin <i class="fas fa-cogs"></i></a></li>
+    </ul>
+</nav>
+<br><br>
+
+
+<div class="box">
+<style>
+div.box {
+  background-color: lightgrey;
+  width: 500px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+</style>
+ 
+<h2>User Account Management</h2>
+<br>
+<form method="post" action="update.php">
+    username: <input type="text" name="uname"><br>
+    password: <input type="text" name="pwd"><br>
+    <input type="submit" value="Update">
+
+    <br><br>
+<form method="post" action="delete.php">
+    user <input type="text" name="uname"><br>
+    id<input type="text" name="pwd"><br>
+    <input type="submit" value="Delete">
+
+</form>
+</div>
+
+<footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="contact-us">
+                <h3>CONTACT US</h3>
+                <p>Need Anything? use our live chat below.</p>
+                <a href="#">+94 76 123 4567</a>
+                <a href="#">onlinebookstore@gmail.lk</a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="information">
+                <h3>INFORMATION</h3>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="file:///C:/xampp/htdocs/project/index.html#">Privacy Policy</a></li>
+                  <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="my-account">
+                <h3>MY ACCOUNT</h3>
+                <ul>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">My Cart</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="newsletter">
+                <h3>NEWSLETTER</h3>
+                <p>Subscribe to our mailing list for new updates</p>
+                <form action="#">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email Adress">
+                  </div>
+                  <button type="submit" class="btn btn-default">SIGN UP</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2024 BOOK HAVEN. ALL RIGHTS RESERVED.</p>
+        </div>
+      </footer>
+      
+      </body>
+      </html>
+
+
+
+
+
+
+   

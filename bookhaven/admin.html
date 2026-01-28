@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            background-color: #edf6ff;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            border-bottom: 1px solid black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            align-items: center;
+            background-color: white;
+
+        }
+
+        .nav_top {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 40px;
+        }
+
+        .nav-items {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            gap: 20px;
+            padding-top: 10px;
+            border-top: 1px solid black;
+            align-items: center;
+        }
+
+        .bainer {
+            background-color: white;
+            width: 100%;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fandcenterr {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        form {
+            background-color: white;
+            width: 450px;
+            padding: 40px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        input {
+            font-size: large;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .form-item {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 100%;
+        }
+
+        .btn {
+            padding: 10px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 60px;
+            display: flex;
+            width: 100%;
+            padding: 20px 80px;
+            justify-content: space-between;
+            background-color: white;
+            min-height: 300px;
+            position: relative;
+
+        }
+
+        .botton_nav_resived {
+            position: absolute;
+            width: 100%;
+            right: 0;
+            bottom: 15px;
+            text-align: center;
+            z-index: 99;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            
+            
+        }
+
+        button {
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        padding: 10px 30px;
+        font-weight: bold;
+    }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav_top">
+            <h1>Logo</h1>
+            <input type="text" style="width: 400px;" placeholder="search">
+            <div class="fandcenterr">
+                <a href="">Signup</a>
+                <a href="">Login</a>
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/user--v1.png" alt="user--v1" />
+            </div>
+            <div class="fandcenterr">
+                <h2>Watchlist</h2>
+                <img width="30" height="30"
+                    src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/external-bookmark-library-tanah-basah-basic-outline-tanah-basah.png"
+                    alt="external-bookmark-library-tanah-basah-basic-outline-tanah-basah" />
+            </div>
+            <div class="fandcenterr">
+                <h4><a href="../shoppingCart.php">Cart</a></h4>
+                <img width="30" height="30" src="https://img.icons8.com/fluency/48/shopping-cart.png"
+                    alt="shopping-cart" />
+            </div>
+        </div>
+        <div class="nav-items">
+            <a href="">Home</a>
+            <a href="">Products</a>
+            <a href="">E-Book</a>
+            <a href="book_recommendations.php">New Arrivals</a>
+            <a href="">About</a>
+            <a href="../rating.php">FeedBack</a>
+        </div>
+    </nav>
+    <div class="container">
+        <br><br>
+        <div style="display: flex; width: 100%; align-items: center; justify-content: center;gap: 40px; padding: 40px; background-color: white;">
+            <div>
+                <div class="item">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="item">
+                    <label for="address">district</label>
+                    <input type="text" name="address" id="address">
+                </div>
+                <div class="item">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="item">
+                    <label for="birthday">birthday</label>
+                    <input type="text" name="birthday" id="birthday">
+                </div>
+            </div>
+            <div>
+                test
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <p>constact</p>
+                <p>need Anything? use our live chat below?</p>
+                <br>
+                <p>+943612344567</p>
+                <p>bookhaven@gmail.com</p>
+            </div>
+            <div>
+                <p>information</p>
+                <br><br>
+                <div style="display: flex; flex-direction: column;">
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms and conditions</a>
+                </div>
+            </div>
+            <div>
+                <p>my account</p>
+                <br><br>
+                <div style="display: flex; flex-direction: column;">
+                    <a href="">My Account</a>
+                    <a href="">My Cart</a>
+                </div>
+            </div>
+            <div>
+                <p>Newslatter</p>
+                <br><br>
+                <p>Subscribe to malition list for new updates</p>
+                <input type="text" placeholder="Email Address">
+                <br><br>
+                <div>
+                    logo
+                </div>
+            </div>
+            <div class="botton_nav_resived">
+                @2024 bookhaven All Rightts Reserved
+            </div>
+        </footer>
+</body>
+
+</html>
